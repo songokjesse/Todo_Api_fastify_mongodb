@@ -41,6 +41,8 @@ Access your Todo api using postman at
 ```$xslt
 http://{yourhost:yourport}/api/tasks
 ```
+![alt text](postman_screenshot.png)
+
 
 For swagger documentation, access it on
 
