@@ -1,3 +1,4 @@
+require ('dotenv'). config ();
 const fastify = require('fastify')({
     logger:true
 })
@@ -8,7 +9,7 @@ const swagger = require('./config/swagger')
 const routes = require('./src/routes')
 
 //database connection
-mongoose.connect('mongodb://localhost:27017/ApiProjects', { useNewUrlParser: true })
+mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true })
     .then(() => console.log('Mongo Database Connected '))
     .catch(err => console.log(err))
 
@@ -24,7 +25,7 @@ routes.forEach((route, index) =>{
 })
 const start = async () => {
     try {
-        await fastify.listen(3000)
+        await fastify.listen(process.env.APP_PORT || 3000, process.env.APP_HOST || '0.0.0.0')
         fastify.swagger()
         fastify.log.info(`server listening on ${fastify.server.address().port}`)
     } catch (e) {

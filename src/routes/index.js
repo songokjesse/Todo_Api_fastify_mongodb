@@ -5,7 +5,7 @@ const routes = [
         method: "GET",
         url: "/",
         handler: (request, reply)=> {
-            reply.send({ hello: 'world' })
+            reply.send({ hello: 'Todo Fastify API with Mongodb' })
         }
     },
     {
