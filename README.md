@@ -67,7 +67,7 @@ For swagger documentation, access it on
  http://{yourhost:yourport}/documentation
 ```
 
-# Installation Docker
+# Installation using Docker
 - Comming Soon
 
 # Testing API 
