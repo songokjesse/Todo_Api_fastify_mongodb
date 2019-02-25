@@ -1,7 +1,6 @@
 # Todo_Api_fastify_mongodb
 TODO API using Fastify with Mongodb for front end developers who dont want any hustle with backend code development  
 
-
 # Installation local
 ---- Requirements ----
 - Node 8.*
@@ -37,9 +36,27 @@ Add your environment variable
  MONGO_URL = {your mongodb url e.g 'mongodb://localhost:27017/ApiProjects'}
 ```
 
-Access your Todo api using postman at 
+Use postman to test the api routes e.g 
+
+List all tasks (GET)
 ```$xslt
 http://{yourhost:yourport}/api/tasks
+```
+create a task (POST)
+```$xslt
+http://{yourhost:yourport}/api/task
+```
+show a task (GET)
+```$xslt
+http://{yourhost:yourport}/api/task/{id}
+```
+Update a task (PUT)
+```$xslt
+http://{yourhost:yourport}/api/task/{id}
+```
+Delete a task (DELETE)
+```$xslt
+http://{yourhost:yourport}/api/task/{id}
 ```
 ![alt text](screenshots/postman_screenshot.png)
 
