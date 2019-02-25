@@ -32,12 +32,12 @@ Add your environment variable
 
 ```$xslt
  APP_HOST = {your application host}
- APP_PORT = {your application port}'
+ APP_PORT = {your application port}
  
- MONGO_URL = {your mongodb url e.g mongodb://localhost:27017/ApiProjects}
+ MONGO_URL = {your mongodb url e.g 'mongodb://localhost:27017/ApiProjects'}
 ```
 
-Access your Todo api at 
+Access your Todo api using postman at 
 ```$xslt
 http://{yourhost:yourport}/api/tasks
 ```
