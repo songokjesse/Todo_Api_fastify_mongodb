@@ -6,7 +6,7 @@
 .idea/misc.xml
 .idea/modules.xml
 .idea/workspace.xml
-
+.idea/
 node_modules/
 
 yarn-error.log
