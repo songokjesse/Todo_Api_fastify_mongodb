@@ -1,6 +1,5 @@
 # Todo_Api_fastify_mongodb
 TODO API using Fastify with Mongodb
 
-#swagger_screenshot
-
+# The Api's screenshot
 ![alt text](api_swagger_screenshot.png)
