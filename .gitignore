@@ -1,0 +1,15 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/FastlyApi.iml
+.idea/codeStyles/
+.idea/dbnavigator.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+.idea/
+node_modules/
+
+yarn-error.log
+yarn.lock
+.env
+test/

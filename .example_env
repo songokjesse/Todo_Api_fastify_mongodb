@@ -1,0 +1,4 @@
+ APP_HOST = {your application host}
+ APP_PORT = {your application port}
+ JWT_SECRET = {your json web token secret}
+ MONGO_URL = {your mongodb url e.g 'mongodb://localhost:27017/ApiProjects'}
